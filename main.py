@@ -71,7 +71,7 @@ def process(image):
 
 
 # Opening a video file for reading
-cap = cv2.VideoCapture('video.mp4')  # video obtained from kaggle 
+cap = cv2.VideoCapture('input_video.mp4')  # video obtained from kaggle 
 
 while cap.isOpened():
     ret, frame = cap.read()
@@ -80,7 +80,7 @@ while cap.isOpened():
     frame = process(frame)
 
     # Displaying the processed frame
-    cv2.imshow('frame', frame)
+    cv2.imshow('Output_Video', frame)
 
     # Loop break when the 'q' key is pressed
     if cv2.waitKey(1) & 0xFF == ord('q'):
