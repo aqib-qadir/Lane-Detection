@@ -22,7 +22,7 @@ Lane detection algorithm follows these key steps:
 
 <br/>
 
-## Set-up and run 
+## Set-Up and Run 
 ### 1. Prerequisites
 Before you begin, ensure that you have the following prerequisites installed on your system:
 
